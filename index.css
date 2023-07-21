@@ -8,6 +8,7 @@
     align-items: center;
     
 }
+ 
 
 .image{
     position: absolute;
@@ -128,6 +129,7 @@ nav .nav-item{
     background-color: #9825F1;
     box-shadow:  0 14px 28px rgba(0, 0, 0, 0.41) , 0 10px 10px rgba(0, 0, 0, 0.22);
     opacity: 1;
+    border: 1px solid black;
 
  }
 
@@ -288,7 +290,7 @@ h2.info{
   font-weight: normal;
   top: 1250px ;
   left: 600px;
-  color: #4A4949;
+  color: rgb(59, 59, 59);
 }
 
 .intro h2{
@@ -299,7 +301,7 @@ h2.info{
   font-weight: normal;
   top: 1350px ;
   left: 600px;
-  color: #4A4949;
+  color: rgb(59, 59, 59);
 }
 
 .experience h1{
@@ -339,6 +341,7 @@ h2.info{
   font-size: 18px;
   font-weight: normal;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .experience2 h2{
@@ -582,14 +585,16 @@ h2.info{
 }
 
 .qualification1{
+ 
   position: absolute;
   top: 2900px;
-  left: 540px;
+  left: 515px;
   font-size: 28px;
 }
 
 .qualification1 h2{
   position: absolute;
+  
   width:200px;
   height: 50px;
   top: 80px;
@@ -597,4 +602,200 @@ h2.info{
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
 }
+
+.flow-diagram{
+  position: absolute;
+  justify-content: top;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  top: 525%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  
+}
+
+.qual1{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 30%;
+  /*background-color: aqua;*/
+  
+  
+}
+
+.connect1{
+  position: absolute;
+  border: 3px dashed black;
+  width: 0px;
+  height: 323px;
+  top: 155px;
+ 
+}
+
+.qual2{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 30%;
+ /* background-color: yellow;*/
+  
+
+}
+.qual3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 30%;
+  /*background-color: blue;*/
+  
+  
+}
+
+.qual4{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 30%;
+  /*background-color: green;*/
+  
+  
+}
+
+.circle {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width:100px;
+  height: 100px;
+  background-color: #9825F1; /* You can change this color to your preference */
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
+  border: 3px solid black;
+  
+}
+
+.lines1{
+
+  position: absolute;
+  background-color: black;
+  right: 223px;
+  width: 340px;
+  height: 2px;
+}
+
+.lines2{
+
+  position: absolute;
+  background-color: black;
+  left: 223px;
+  width: 340px;
+  height: 2px;
+}
+
+.loc{
+  position: absolute;
+  top: 127px;
+}
+
+.quali1{
+
+  position: absolute;
+  left: 260px;
+  top: 50px;
+  font-size: 17px;
+  color: purple;
+  font-weight: bold;
+}
+
+.qualif1{
+
+  position: absolute;
+  left: 223px;
+  top: 80px;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+  
+
+}
+
+.quali2{
+
+  position: absolute;
+  right: 360px;
+  top: 200px;
+  font-size: 17px;
+  color: purple;
+  font-weight: bold;
+}
+
+.qualif2{
+
+  position: absolute;
+  right: 240px;
+  top: 230px;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+  
+
+}
+
+.quali3{
+
+  position: absolute;
+  left: 285px;
+  top: 350px;
+  font-size: 17px;
+  color: purple;
+  font-weight: bold;
+}
+
+.qualif3{
+
+  position: absolute;
+  left: 257px;
+  top: 380px;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+  
+
+}
+
+.quali4{
+
+  position: absolute;
+  right: 360px;
+  top: 500px;
+  font-size: 17px;
+  color: purple;
+  font-weight: bold;
+}
+
+.qualif4{
+
+  position: absolute;
+  right: 300px;
+  top: 530px;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+  
+
+}
+
+
+
+
+
+
+
 
